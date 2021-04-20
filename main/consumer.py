@@ -2,7 +2,7 @@ import pika, json
 
 from main import Product, db
 
-params = pika.URLParameters('your_ramqps://vqrnohxh:FsSNaQZ74kW8X6G8lKcm8zwCQz8kG8x-@fish.rmq.cloudamqp.com/vqrnohxhabbitmq_url')
+params = pika.URLParameters('amqps://ioznqevc:cQpmRVSd2BmxHAhLt7g050r2AMb0FyXY@vulture.rmq.cloudamqp.com/ioznqevc')
 
 connection = pika.BlockingConnection(params)
 
